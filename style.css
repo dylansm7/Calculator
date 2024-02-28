@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #BF3131;
+}
+
+.container{
+  margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 600px;
+  height: 800px;
+  background-color: #272829;
+  box-shadow: 40px 40px 25px black;
+  
+}
+
+.display-div {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display{
+  /* border: 2px solid green; */
+  border-radius: 10px;
+  width: 550px;
+  height: 200px;
+  background-color: #C8C6C6;
+}
+
+.operation-display, .result-display {
+    /* border: 2px solid green; */
+    height: 50%;
+    display: flex;
+
+}
+
+#operation, #operation-result{
+  height: 100%;
+  width: 100%;
+  background-color: #C8C6C6;
+  border-style: none;
+  font-size: 4rem;
+  text-align: right; 
+}
+
+.buttons-div{
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  width: 600px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.top-div{
+  /* border: 2px solid lightblue; */
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.buttons{
+  /* border: 2px solid orange; */
+  width: 560px;
+  height: 500px;
+}
+
+.bottom-div{
+  /* border: 2px solid lightgreen; */
+  height: 40%;
+  display: flex;
+}
+
+.bottomleft-div {
+  /* border: 2px solid lightseagreen; */
+  width: 74%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.bottomright-div {
+  /* border: 2px solid red; */
+  width: 26%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  width: 125px;
+  height: 90px;
+  background-color: #A9A9A9;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  border-style: none;
+  
+}
+
+.clear{ 
+  width: 48%;
+  background-color: #E55604;
+}
+
+.cero {
+  width: 65%;
+}
+
+.btn-bottom{
+  height: 90px;
+}
+
+.one, .two, .three, .equal{
+  margin-top: 3px;
+}
+.equal {
+  height: 97%;
+  background-color: #E55604;
+}
+
+.divide-btn, .multiply-btn, .reduce-btn, .add-btn{
+  background-color: black;
+}
