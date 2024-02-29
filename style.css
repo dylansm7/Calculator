@@ -11,12 +11,12 @@ body {
 }
 
 .container{
-  margin: 10% auto;
+  margin: 7% auto;
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
-  width: 600px;
-  height: 800px;
+  width: 400px;
+  height: 600px;
   background-color: #272829;
   box-shadow: 40px 40px 25px black;
   
@@ -25,26 +25,27 @@ body {
 .display-div {
   /* border: 2px solid red; */
   border-radius: 10px;
-  width: 600px;
-  height: 250px;
+  width: 400px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .display{
-  /* border: 2px solid green; */
+  /* outline: 2px solid green; */
   border-radius: 10px;
-  width: 550px;
-  height: 200px;
+  width: 360px;
+  height: 100px;
   background-color: #C8C6C6;
+  border-radius: 10px;
 }
 
 .operation-display, .result-display {
-    /* border: 2px solid green; */
+    /* outline: 2px solid green; */
     height: 50%;
     display: flex;
-
+    
 }
 
 #operation, #operation-result{
@@ -52,15 +53,16 @@ body {
   width: 100%;
   background-color: #C8C6C6;
   border-style: none;
-  font-size: 4rem;
-  text-align: right; 
+  font-size: 2.5rem;
+  text-align: right;
+  border-radius: 7px; 
 }
 
 .buttons-div{
   /* border: 2px solid blue; */
   border-radius: 10px;
-  width: 600px;
-  height: 550px;
+  width: 400px;
+  height: 450px;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -72,13 +74,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 5px;
+  gap: 2px;
 }
 
 .buttons{
   /* border: 2px solid orange; */
-  width: 560px;
-  height: 500px;
+  width: 360px;
+  height: 425px;
 }
 
 .bottom-div{
@@ -89,11 +91,11 @@ body {
 
 .bottomleft-div {
   /* border: 2px solid lightseagreen; */
-  width: 74%;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 5px;
+  gap: 2px;
 }
 
 .bottomright-div {
@@ -104,34 +106,36 @@ body {
 }
 
 .btn {
-  width: 125px;
-  height: 90px;
+  width: 80px;
+  height: 75px;
   background-color: #A9A9A9;
   color: white;
   font-size: 2rem;
   font-weight: bold;
   border-style: none;
-  
+  border-radius: 7px; 
+
 }
 
-.clear{ 
-  width: 48%;
+.clear, .backBtn{ 
+  /* width: 48%; */
   background-color: #E55604;
 }
 
-.cero {
+.btn-0 {
   width: 65%;
 }
 
-.btn-bottom{
+/* .btn-de{
   height: 90px;
-}
+} */
 
-.one, .two, .three, .equal{
-  margin-top: 3px;
+.btn-1, .btn-2, .btn-3, .equal{
+  margin-top: 2px;
 }
-.equal {
-  height: 97%;
+.btn-equal {
+  width: 80px;
+  height: 96%;
   background-color: #E55604;
 }
 
