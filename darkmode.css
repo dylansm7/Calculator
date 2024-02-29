@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #344955;
+}
+
+.container{
+  margin: 3% auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+  background-color: #272829;
+  box-shadow: 40px 40px 25px black;
+  
+}
+
+.display-div {
+  border-radius: 10px;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display{
+  border-radius: 10px;
+  width: 360px;
+  height: 100px;
+  background-color: #C8C6C6;
+  border-radius: 10px;
+}
+
+.operation-display, .result-display {
+    height: 50%;
+    display: flex;
+    
+}
+
+#operation, #operation-result{
+  height: 100%;
+  width: 100%;
+  background-color: #C8C6C6;
+  border-style: none;
+  font-size: 2.5rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  text-align: right;
+  border-radius: 7px; 
+}
+
+.buttons-div{
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-div{
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.buttons{
+  width: 360px;
+  height: 425px;
+}
+
+.bottom-div{
+  height: 40%;
+  display: flex;
+}
+
+.bottomleft-div {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.bottomright-div {
+  width: 26%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  width: 80px;
+  height: 75px;
+  background-color: #A9A9A9;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 7px; 
+  cursor: pointer;
+}
+
+.clear, .backBtn{ 
+  background-color: #E55604;
+}
+
+.btn-0 {
+  width: 65%;
+}
+
+
+.btn-1, .btn-2, .btn-3, .equal{
+  margin-top: 2px;
+}
+.btn-equal {
+  width: 80px;
+  height: 96%;
+  background-color: #E55604;
+}
+
+.divide-btn, .multiply-btn, .reduce-btn, .add-btn{
+  background-color: black;
+}
+
+#dark-mode{
+  background-color: #344955;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 25px #272829;
+  margin-top: 20%;
+}
+
+.darkMode{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 39%;
+
+}

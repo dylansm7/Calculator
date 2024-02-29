@@ -128,3 +128,14 @@ addOperatorEventListener(multiplyBtn, '*');
 addOperatorEventListener(divideBtn, '/');
 
 
+function switchTheme() {
+  let darkMode = document.getElementById("dark-mode");
+  let theme = document.getElementById("theme");
+  if (theme.getAttribute("href") == "style.css") {
+    theme.href = "darkmode.css";
+    darkMode.innerHTML = "Light Mode☀️";
+  } else {
+    theme.href = "style.css";
+    darkMode.innerHTML = "Dark Mode🌙";
+  }
+}
