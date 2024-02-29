@@ -18,7 +18,7 @@ body {
   width: 400px;
   height: 600px;
   background-color: #272829;
-  box-shadow: 40px 40px 25px black;
+  box-shadow: 20px 20px 20px black;
   
 }
 
@@ -142,13 +142,37 @@ body {
   font-weight: bold;
   text-align: center;
   border-radius: 30px;
-  box-shadow: 5px 5px 25px #272829;
+  box-shadow: 5px 5px 15px black;
   margin-top: 20%;
 }
 
 .darkMode{
   display: flex;
-  justify-content: flex-end;
-  margin-right: 39%;
+  justify-content: center;
 
+}
+
+.btn:hover{
+  background-color: #EFECEC;
+  color: black;
+}
+
+.clear:hover,
+.backBtn:hover,
+.btn-equal:hover{
+  background-color: #FF8400;
+  color: white;
+}
+
+.add-btn:hover,
+.reduce-btn:hover,
+.multiply-btn:hover,
+.divide-btn:hover {
+  background-color: #454545 ;
+  color: white;
+}
+
+.btn:active {
+  box-shadow: 3px 3px 5px #B2B2B2;
+  transform: translateY(6px);
 }

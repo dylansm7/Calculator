@@ -18,7 +18,7 @@ body {
   width: 400px;
   height: 600px;
   background-color: #C9DBB2;
-  box-shadow: 40px 40px 25px #272829;
+  box-shadow: 20px 20px 20px #294B29;
   
 }
 
@@ -142,13 +142,36 @@ body {
   font-weight: bold;
   text-align: center;
   border-radius: 30px;
-  box-shadow: 5px 5px 25px #272829;
+  box-shadow: 5px 5px 15px #294B29;
   margin-top: 20%;
 }
 
 .darkMode{
   display: flex;
-  justify-content: flex-end;
-  margin-right: 39%;
+  justify-content: center;
+  
 
+}
+
+.btn:hover{
+  background-color: #436850;
+}
+
+.clear:hover,
+.backBtn:hover,
+.btn-equal:hover{
+  background-color: #EE7214;
+}
+
+.add-btn:hover,
+.reduce-btn:hover,
+.multiply-btn:hover,
+.divide-btn:hover {
+  background-color: black ;
+}
+
+.btn:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 3px 3px 5px #272829;
+  transform: translateY(6px);
 }
